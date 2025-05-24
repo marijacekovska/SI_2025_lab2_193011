@@ -7,7 +7,7 @@ Control Flow Graph
 ![Control Flow Graph](Capture1.PNG)
 
 
-public class SILabb2 {
+ public class SILabb2 {
     public static double checkCart(List<Item> allItems, String cardNumber){
     
         if (allItems == null){  //B
