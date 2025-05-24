@@ -4,4 +4,4 @@
 
 Control Flow Graph
 
-![Control Flow Graph](Capture1.png)
+![Control Flow Graph](Capture1.PNG)
