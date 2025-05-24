@@ -6,7 +6,7 @@ Control Flow Graph
 
 ![Control Flow Graph](Capture1.PNG)
 
-Почеток //А
+
 public class SILabb2 {
     public static double checkCart(List<Item> allItems, String cardNumber){
     
