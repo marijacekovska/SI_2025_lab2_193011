@@ -7,8 +7,11 @@ Control Flow Graph
 ![Control Flow Graph](Capture1.PNG)
 
 Почеток  //А
+
 if (allItems == null){  //B
+
 throw new RuntimeException("allItems list can't be null!");  //C
+
 double sum = 0;  //D
 for (int i = 0; i < allItems.size(); i++){  //E
 Item item = allItems.get(i);  //F
