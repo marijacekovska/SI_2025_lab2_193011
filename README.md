@@ -28,9 +28,6 @@ sum -= 30;  //J
 
 if (item.getDiscount() > 0){  //K
 
-# Тест случаи според критериумот Every statement
-![Every statement](Capture2.PNG)
-
 sum += item.getPrice()*(1-item.getDiscount())*item.getQuantity();  //L
 
 else {  //M
@@ -62,3 +59,13 @@ return sum;  //X
 # Цикломатска комплексност
 
 Цикломатската комплексност на кодот е 9. Ја добив преку формулата P+1, каде што P е бројот на предикатни јазли. Во случајoв P=8, па цикломатската комплексност изнесува 9.
+
+
+
+# Тест случаи според критериумот Every statement
+![Every statement](Capture2.PNG)
+Колоната 1 е кога условот е: allItems == null
+Колоната 2 е кога условот е: allItems != null , item.getName() == null
+Колоната 3 е кога условот е: allItems != null , item.getName() != null , item.getName().length() != 0 , item.getPrice() > 300 , item.getDiscount() > 0 , cardNumber != null , cardNumber.length() == 16 , allowed.indexOf(c) == -1
+Колоната 4 е кога условот е: allItems != null , item.getName() != null , item.getName().length() != 0 , item.getPrice() > 300 , item.getDiscount() < 0 , cardNumber != null , cardNumber.length() == 16 , allowed.indexOf(c) != -1
+Колоната 5 е кога условот е: allItems != null , item.getName() != null , item.getName().length() != 0 , item.getPrice() > 300 , item.getDiscount() < 0 , cardNumber == null
