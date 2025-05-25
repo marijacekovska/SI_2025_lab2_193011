@@ -63,7 +63,7 @@ return sum;  //X
 
 
 # Тест случаи според критериумот Every statement
-
+![Every Statement](Capture2.PNG)
 
 Колоната 1 е кога условот е: allItems == null
 
