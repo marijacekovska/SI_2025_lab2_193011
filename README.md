@@ -28,6 +28,9 @@ sum -= 30;  //J
 
 if (item.getDiscount() > 0){  //K
 
+# Тест случаи според критериумот Every statement
+![Every statement](Capture2.PNG)
+
 sum += item.getPrice()*(1-item.getDiscount())*item.getQuantity();  //L
 
 else {  //M
